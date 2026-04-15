@@ -2,9 +2,6 @@ let tasks = [];
 let currentId = 0;
 let editingId = null;
 
-/* =========================
-   DOM ELEMENTS
-========================= */
 const modal = document.getElementById("modal");
 const titleInput = document.getElementById("titleInput");
 const descInput = document.getElementById("descInput");
