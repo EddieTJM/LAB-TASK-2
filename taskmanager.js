@@ -183,9 +183,7 @@ document.getElementById("priorityFilter").addEventListener("change", function ()
     });
 });
 
-/* =========================
-   CLEAR DONE (STAGGER)
-========================= */
+
 document.getElementById("clearDone").addEventListener("click", function () {
 
     const cards = document.querySelectorAll("#done .task-card");
