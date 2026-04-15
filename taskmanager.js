@@ -106,9 +106,7 @@ function editTask(id) {
     modal.classList.remove("hidden");
 }
 
-/* =========================
-   UPDATE TASK
-========================= */
+
 function updateTask(id) {
     const task = tasks.find(t => t.id === id);
 
