@@ -167,9 +167,7 @@ document.getElementById("saveBtn").addEventListener("click", function () {
     modal.classList.add("hidden");
 });
 
-/* =========================
-   CANCEL BUTTON
-========================= */
+
 document.getElementById("cancelBtn").addEventListener("click", () => {
     modal.classList.add("hidden");
 });
