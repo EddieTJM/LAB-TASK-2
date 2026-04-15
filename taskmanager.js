@@ -9,9 +9,6 @@ const priorityInput = document.getElementById("priorityInput");
 const dateInput = document.getElementById("dateInput");
 const taskCount = document.getElementById("taskCount");
 
-/* =========================
-   CREATE TASK CARD
-========================= */
 function createTaskCard(task) {
 
     const li = document.createElement("li");
