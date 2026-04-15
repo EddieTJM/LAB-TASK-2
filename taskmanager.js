@@ -93,9 +93,7 @@ function deleteTask(id) {
     }, 300);
 }
 
-/* =========================
-   EDIT TASK (OPEN MODAL)
-========================= */
+
 function editTask(id) {
     const task = tasks.find(t => t.id === id);
 
