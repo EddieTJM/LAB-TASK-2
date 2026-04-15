@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Task Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Task Board <span id="taskCount">0</span></h1>
+
+    <select id="priorityFilter">
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select>
+</header>
+
+<main class="board">
+
+    <section id="todo">
+        <h2>To Do</h2>
+        <ul></ul>
+        <button class="addBtn">Add Task</button>
+    </section>
+
+    <section id="inprogress">
+        <h2>In Progress</h2>
+        <ul></ul>
+        <button class="addBtn">Add Task</button>
+    </section>
+
+    <section id="done">
+        <h2>Done</h2>
+        <ul></ul>
+        <button class="addBtn">Add Task</button>
+        <button id="clearDone">Clear All</button>
+    </section>
+
+</main>
+
+<!-- Modal -->
+<div id="modal" class="hidden">
+    <div class="modal-content">
+        <input id="titleInput" placeholder="Title">
+        <textarea id="descInput" placeholder="Description"></textarea>
+
+        <select id="priorityInput">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <input type="date" id="dateInput">
+
+        <button id="saveBtn">Save</button>
+        <button id="cancelBtn">Cancel</button>
+    </div>
+</div>
+
+<script src="taskmanager.js"></script>
+</body>
+</html>
