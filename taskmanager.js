@@ -172,9 +172,7 @@ document.getElementById("cancelBtn").addEventListener("click", () => {
     modal.classList.add("hidden");
 });
 
-/* =========================
-   FILTER
-========================= */
+
 document.getElementById("priorityFilter").addEventListener("change", function () {
     const value = this.value;
 
