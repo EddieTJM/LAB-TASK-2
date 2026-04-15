@@ -145,9 +145,7 @@ document.querySelectorAll(".addBtn").forEach(btn => {
     });
 });
 
-/* =========================
-   SAVE BUTTON
-========================= */
+
 document.getElementById("saveBtn").addEventListener("click", function () {
 
     if (editingId !== null) {
