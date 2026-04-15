@@ -122,9 +122,7 @@ function updateTask(id) {
     card.children[3].textContent = task.date;
 }
 
-/* =========================
-   EVENT DELEGATION
-========================= */
+
 document.querySelectorAll("ul").forEach(list => {
     list.addEventListener("click", function (e) {
 
