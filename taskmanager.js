@@ -136,9 +136,7 @@ document.querySelectorAll("ul").forEach(list => {
     });
 });
 
-/* =========================
-   ADD BUTTON
-========================= */
+
 document.querySelectorAll(".addBtn").forEach(btn => {
     btn.addEventListener("click", function () {
         modal.classList.remove("hidden");
